@@ -1,5 +1,3 @@
-nano Anchor.tomlnano Anchor.tomlnano Anchor.tomlskip_local_validator = true
-
 [toolchain]
 
 [features]
@@ -9,11 +7,12 @@ skip-lint = false
 [programs.devnet]
 my_first_solana_project = "Ed8RwfGXchADvWRv8XphyveLPfDRrgPJiUX3cJu167x6"
 
+[registry]
+url = "https://api.apr.dev"
+
 [provider]
-cluster = "Devnet"
+cluster = "Localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
 test = "cargo test"
-
-[hooks]
