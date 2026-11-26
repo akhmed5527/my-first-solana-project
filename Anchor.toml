@@ -1,4 +1,4 @@
-skip_local_validator = true
+nano Anchor.tomlnano Anchor.tomlnano Anchor.tomlskip_local_validator = true
 
 [toolchain]
 
@@ -6,11 +6,11 @@ skip_local_validator = true
 resolution = true
 skip-lint = false
 
-[programs.localnet]
+[programs.devnet]
 my_first_solana_project = "Ed8RwfGXchADvWRv8XphyveLPfDRrgPJiUX3cJu167x6"
 
 [provider]
-cluster = "localnet"
+cluster = "Devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
