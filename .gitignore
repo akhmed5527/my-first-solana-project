@@ -6,3 +6,28 @@ node_modules
 test-ledger
 .yarn
 .surfpool
+# Клон внешнего репозитория Raydium — не коммитим
+week11-raydium-source/
+
+# Временные файлы эксперимента
+RAYDIUM_LOCALNET.txt
+
+# Общие игноры для всех Anchor-проектов
+**/target/
+**/node_modules/
+**/test-ledger/
+**/.anchor/
+**/*.keypair.json
+**/*.save
+
+# НЕ игнорировать package.json и tsconfig.json (они нужны)
+!**/package.json
+!**/package-lock.json
+!**/tsconfig.json
+
+# security
+**/target/
+**/node_modules/
+*.key
+.env
+**/*-keypair.json
